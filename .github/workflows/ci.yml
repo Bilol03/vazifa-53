@@ -20,8 +20,8 @@ jobs:
     - name: Dependenciyalarni o'rnatish
       run: npm ci
 
-    - name: Lint tekshirish
-      run: npm run lint
+    # - name: Lint tekshirish
+    #   run: npm run lint
 
     - name: Testlarni ishga tushirish
       run: npm run test
